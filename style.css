@@ -43,9 +43,15 @@ div,
 dl,
 dt,
 dd,
-h1,
-h2,
-h3,
+h1{
+	color: #fff;
+}
+h2{
+	color: #fff;
+}
+h3{
+	color: #fff;
+}
 h4,
 h5,
 h6,
@@ -72,7 +78,9 @@ img {
 	border: 0 none;
 }
 dl,
-ol,
+ol{
+	color: #fff;
+}
 menu {
 	list-style: none;
 }
@@ -563,6 +571,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 #detail_page .article .contents_style ul li {
 	line-height: 1.5;
 	padding-top: 8px;
+	color: #fff;
 }
 
 #detail_page .article .tableofcontents {
@@ -797,13 +806,13 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	border: 1px solid #ddd;
 }
 
-#detail_page #entry62Comment > ul > li .rp_admin::after {
+#detail_page .commentlist > ul > li .rp_admin::after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
-#detail_page #entry62Comment > ul > li .rp_admin .image {
+#detail_page .commentlist > ul > li .rp_admin .image {
 	float: right;
 	width: 60px;
 	height: 60px;
@@ -811,11 +820,11 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	overflow: hidden;
 }
 
-#detail_page #entry62Comment > ul > li .rp_admin .image img {
+#detail_page .commentlist > ul > li .rp_admin .image img {
 	width: 100%;
 }
 
-#detail_page #entry62Comment > ul > li .rp_admin .com_box {
+#detail_page .commentlist > ul > li .rp_admin .com_box {
 	float: right;
 	margin-right: 20px;
 	box-sizing: border-box;
@@ -827,7 +836,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	max-width: calc(100% - 120px);
 	margin-bottom: 10px;
 }
-#detail_page #entry62Comment > ul > li .rp_admin .com_box::after {
+#detail_page .commentlist > ul > li .rp_admin .com_box::after {
 	content: "";
 	position: absolute;
 	width: 17.5px;
@@ -843,7 +852,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	transform: scaleX(1);
 }
 
-#detail_page #entry62Comment > ul > li .rp_admin .com_box .name a {
+#detail_page .commentlist > ul > li .rp_admin .com_box .name a {
 	display: inline-block;
 	padding: 3px 15px;
 	border: 1px solid #fff;
@@ -852,7 +861,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	font-size: 14px;
 }
 
-#detail_page #entry62Comment > ul > li .rp_admin .com_box .com_txt {
+#detail_page .commentlist > ul > li .rp_admin .com_box .com_txt {
 	padding-left: 5px;
 	padding-top: 10px;
 	padding-bottom: 15px;
@@ -860,17 +869,17 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	color: #fff;
 }
 
-#detail_page #entry62Comment > ul > li .rp_admin .com_box .date {
+#detail_page .commentlist > ul > li .rp_admin .com_box .date {
 	padding-left: 5px;
 }
 
-#detail_page #entry62Comment > ul > li .rp_general::after {
+#detail_page .commentlist > ul > li .rp_general::after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
-#detail_page #entry62Comment > ul > li .rp_general .image {
+#detail_page .commentlist > ul > li .rp_general .image {
 	float: left;
 	width: 60px;
 	height: 60px;
@@ -878,11 +887,11 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	overflow: hidden;
 }
 
-#detail_page #entry62Comment > ul > li .rp_general .image img {
+#detail_page .commentlist > ul > li .rp_general .image img {
 	width: 100%;
 }
 
-#detail_page #entry62Comment > ul > li .rp_general .com_box {
+#detail_page .commentlist > ul > li .rp_general .com_box {
 	float: left;
 	margin-left: 20px;
 	box-sizing: border-box;
@@ -894,7 +903,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	max-width: calc(100% - 120px);
 	margin-bottom: 10px;
 }
-#detail_page #entry62Comment > ul > li .rp_general .com_box::after {
+#detail_page .commentlist > ul > li .rp_general .com_box::after {
 	content: "";
 	position: absolute;
 	width: 17.5px;
@@ -910,7 +919,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	transform: scaleX(-1);
 }
 
-#detail_page #entry62Comment > ul > li .rp_general .com_box .name {
+#detail_page .commentlist > ul > li .rp_general .com_box .name {
 	display: inline-block;
 	padding: 3px 15px;
 	border: 1px solid #ddd;
@@ -919,7 +928,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	font-size: 14px;
 }
 
-#detail_page #entry62Comment > ul > li .rp_general .com_box .name {
+#detail_page .commentlist > ul > li .rp_general .com_box .name {
 	display: inline-block;
 	padding: 3px 15px;
 	border: 1px solid #ddd;
@@ -928,7 +937,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	font-size: 14px;
 }
 
-#detail_page #entry62Comment > ul > li .rp_general .com_box .com_txt {
+#detail_page .commentlist > ul > li .rp_general .com_box .com_txt {
 	padding-left: 5px;
 	padding-top: 10px;
 	padding-bottom: 15px;
@@ -936,18 +945,18 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	color: #eee;
 }
 
-#detail_page #entry62Comment > ul > li .rp_general .com_box .date {
+#detail_page .commentlist > ul > li .rp_general .com_box .date {
 	padding-left: 5px;
 }
 
 /*비밀글*/
-#detail_page #entry62Comment > ul > li .rp_secret::after {
+#detail_page .commentlist > ul > li .rp_secret::after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
-#detail_page #entry62Comment > ul > li .rp_secret .image {
+#detail_page .commentlist > ul > li .rp_secret .image {
 	float: left;
 	width: 60px;
 	height: 60px;
@@ -955,11 +964,11 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	overflow: hidden;
 }
 
-#detail_page #entry62Comment > ul > li .rp_secret .image img {
+#detail_page .commentlist > ul > li .rp_secret .image img {
 	width: 100%;
 }
 
-#detail_page #entry62Comment > ul > li .rp_secret .com_box {
+#detail_page .commentlist > ul > li .rp_secret .com_box {
 	float: left;
 	margin-left: 20px;
 	box-sizing: border-box;
@@ -971,7 +980,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	max-width: calc(100% - 120px);
 	margin-bottom: 10px;
 }
-#detail_page #entry62Comment > ul > li .rp_secret .com_box::after {
+#detail_page .commentlist > ul > li .rp_secret .com_box::after {
 	content: "";
 	position: absolute;
 	width: 17.5px;
@@ -987,7 +996,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	transform: scaleX(-1);
 }
 
-#detail_page #entry62Comment > ul > li .rp_secret .com_box .name {
+#detail_page .commentlist > ul > li .rp_secret .com_box .name {
 	display: inline-block;
 	padding: 3px 15px;
 	border: 1px solid #ddd;
@@ -996,7 +1005,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	font-size: 14px;
 }
 
-#detail_page #entry62Comment > ul > li .rp_secret .com_box .name {
+#detail_page .commentlist > ul > li .rp_secret .com_box .name {
 	display: inline-block;
 	padding: 3px 15px;
 	border: 1px solid #ddd;
@@ -1005,7 +1014,7 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	font-size: 14px;
 }
 
-#detail_page #entry62Comment > ul > li .rp_secret .com_box .com_txt {
+#detail_page .commentlist > ul > li .rp_secret .com_box .com_txt {
 	padding-left: 5px;
 	padding-top: 10px;
 	padding-bottom: 15px;
@@ -1013,11 +1022,11 @@ figure.fileblock .name, #tt-body-page figure.fileblock .name {
 	color: #eee;
 }
 
-#detail_page #entry62Comment > ul > li .rp_secret .com_box .date {
+#detail_page .commentlist > ul > li .rp_secret .com_box .date {
 	padding-left: 5px;
 }
 
-#detail_page #entry62Comment > ul > li .com_box {
+#detail_page .commentlist > ul > li .com_box {
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
